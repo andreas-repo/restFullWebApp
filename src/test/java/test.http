@@ -1,0 +1,15 @@
+
+//JSON test
+GET http://localhost:8080/restFullWebApp_war_exploded/rest/tutorial/items
+
+###
+
+POST http://localhost:8080/restFullWebApp_war_exploded/rest/Application/add HTTP/1.1
+Content-Type: multipart/form-data
+{
+"id": 3,
+"name" : "max",
+"price" : 29.99
+}
+
+###
